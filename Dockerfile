@@ -2,7 +2,7 @@ FROM alpine:latest
 
 RUN apk update
 
-ENV JAVA_VERSION="16"
+ENV JAVA_VERSION="17"
 RUN apk add openjdk${JAVA_VERSION}-jre
 
 RUN apk add bash
